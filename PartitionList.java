@@ -11,7 +11,6 @@
 class PartitionList {
     public ListNode partition(ListNode head, int x) {
         if (head == null || head.next == null) return head;
-
         ListNode temp = head;
         ListNode prev = null;
         ListNode prevNode = null;
